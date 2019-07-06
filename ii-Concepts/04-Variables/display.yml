@@ -53,10 +53,10 @@
             our  input from the external files -- myname is {{myname}}
             first item in the features list is {{servicesneedstodisable}}
 
-    - name: take input from user
-      debug:
-        msg: >
-            the input provided by you is {{servicename}}
+    #- name: take input from user
+     # debug:
+       # msg: >
+           # the input provided by you is {{servicename}}
 
     - name: get the variables from fact
       debug:
