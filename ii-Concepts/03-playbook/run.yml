@@ -1,0 +1,15 @@
+---
+hosts: ntmspc-9
+  vars_files:
+    - servicetask.yml
+
+
+  
+  tasks:
+    - name: Stop a service
+      win_service:
+        name: "{{service.name}}"
+        state: stopped
+...
+
+              

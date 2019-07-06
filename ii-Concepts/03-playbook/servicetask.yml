@@ -1,0 +1,7 @@
+ ---
+ myname: ntmspc-9
+
+ servicesneedstostopped:
+   [Bits, Dhcp, Dnscache]
+
+   ...
